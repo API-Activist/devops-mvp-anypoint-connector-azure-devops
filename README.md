@@ -9,7 +9,7 @@ Use the Azure DevOps REST API reference to extend this connector to your needs -
 
 ## Getting started
 This Anypoint Studio MVP (Minimum Viable Product) Connector for Azure DevOps has been built for the MuleSoft Community as a template to reuse and if required further extend. 
-The connector supports 21 operations in this MVP release with the focus on issues, which are:
+The connector supports 19 operations in this MVP release with the focus on issues, which are:
 - Create new project
 - Create team
 - Create work item
