@@ -44,7 +44,7 @@ This section describes the installation process for this mvp connector in order 
 - Perform "mvn install" 
 - Connector should be installed successfully
 
-![Image of Azure DevOps MuleSoft Connector](https://github.com/API-Activist/devops-mvp-anypoint-connector-jenkins/blob/master/cmd%20mvn%20install.PNG)
+![Image of Azure DevOps MuleSoft Connector](https://github.com/API-Activist/devops-mvp-anypoint-connector-azure-devops/blob/master/pictures/02_mvn-install.PNG)
 
 ### Step 3 - Adding dependency in Anypoint Studio Project
 After installation is successful, add the following dependency into your anypoint project pom.xml:
@@ -58,7 +58,7 @@ After installation is successful, add the following dependency into your anypoin
 
 The current version of this connector is 0.0.24. Once added, save the pom.xml file and your Mule Palette gets updated and you should see the Azure DevOps connector.
 
-![Image of Azure DevOps MuleSoft Connector](https://github.com/API-Activist/devops-mvp-anypoint-connector-jenkins/blob/master/jenkins-mule-palette.PNG)
+![Image of Azure DevOps MuleSoft Connector](https://github.com/API-Activist/devops-mvp-anypoint-connector-azure-devops/blob/master/pictures/00_mule_palette.PNG)
 
 ### Step 4 - Create Azure DevOps Configuration
 Before you get started and consume the provided operations, make sure to configure the GitLab Connection within Anypoint Studio. 
@@ -68,7 +68,7 @@ Before you get started and consume the provided operations, make sure to configu
 
 [Learn how to obtain PAT (Personal Access Token) for Azure DevOps](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=preview-page)
 
-![Image of Azure DevOps MuleSoft Connector](https://github.com/API-Activist/devops-mvp-anypoint-connector-jenkins/blob/master/Jenkins-config.PNG)
+![Image of Azure DevOps MuleSoft Connector](https://github.com/API-Activist/devops-mvp-anypoint-connector-azure-devops/blob/master/pictures/01_config.PNG)
 
 Now you are all set to use the Azure DevOps Operations.
 
@@ -93,7 +93,7 @@ Additionally you have to provide a payload for all **Add** and **Update** operat
 ### How to use the payload property
 As Azure DevOps payloads have couple of fields, it is recommended to use the Transform Message component before. 
 
-![Image of Azure DevOps MuleSoft Connector](https://github.com/API-Activist/devops-mvp-anypoint-connector-jenkins/blob/master/Jenkins-config.PNG)
+![Image of Azure DevOps MuleSoft Connector](https://github.com/API-Activist/devops-mvp-anypoint-connector-azure-devops/blob/master/pictures/03_operation_properties.PNG)
 
 When using a transform message component, make use of the example payloads provided for **new** and **update** operations [provided here](https://docs.microsoft.com/en-us/rest/api/azure/devops/core/teams/create?view=azure-devops-rest-6.1).
 
@@ -111,7 +111,7 @@ By default it is a json sent back as string. Therefor it is required to set the 
 	}
 
 ## Flow Example with Azure DevOps operations
-![Image of Azure DevOps interaction](https://github.com/API-Activist/devops-mvp-anypoint-connector-gitlab/blob/master/pictures/Gitlab-jenkins-Jira.PNG)
+![Image of Azure DevOps interaction](https://github.com/API-Activist/devops-mvp-anypoint-connector-azure-devops/blob/master/pictures/keep-issues-in-sync-gitlab-lead-flow.PNG)
 
 	
 ## Video Tutorial
