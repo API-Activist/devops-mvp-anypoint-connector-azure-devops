@@ -5,7 +5,7 @@ Implementation content is focused on issues resources of Azure DevOps.
 
 Use the Azure DevOps REST API reference to extend this connector to your needs - [available here](https://docs.microsoft.com/en-us/rest/api/azure/devops/?view=azure-devops-rest-6.1)
 
-![Azure DevOps Logo](https://github.com/API-Activist/devops-mvp-anypoint-connector-azure-devops/blob/master/pictures/devops.png)
+![Azure DevOps Logo](https://github.com/API-Activist/devops-mvp-anypoint-connector-azure-devops/blob/master/icon/icon.svg)
 
 ## Getting started
 This Anypoint Studio MVP (Minimum Viable Product) Connector for Azure DevOps has been built for the MuleSoft Community as a template to reuse and if required further extend. 
