@@ -5,6 +5,8 @@ Implementation content is focused on issues resources of Azure DevOps.
 
 Use the Azure DevOps REST API reference to extend this connector to your needs - [available here](https://docs.microsoft.com/en-us/rest/api/azure/devops/?view=azure-devops-rest-6.1)
 
+![Azure DevOps Logo](https://github.com/API-Activist/devops-mvp-anypoint-connector-azure-devops/blob/master/pictures/devops.png)
+
 ## Getting started
 This Anypoint Studio MVP (Minimum Viable Product) Connector for Azure DevOps has been built for the MuleSoft Community as a template to reuse and if required further extend. 
 The connector supports 21 operations in this MVP release with the focus on issues, which are:
@@ -88,15 +90,15 @@ When using the different operations, make sure to use the MIME-Type as **applica
 ### Operation specific properties
 Each operation has additional properties to be added - based on the operation type this could be different.
 
+![Image of Azure DevOps MuleSoft Connector](https://github.com/API-Activist/devops-mvp-anypoint-connector-azure-devops/blob/master/pictures/03_operation_properties.PNG)
+
 Additionally you have to provide a payload for all **Add** and **Update** operations (see next section).
 
 ### How to use the payload property
 As Azure DevOps payloads have couple of fields, it is recommended to use the Transform Message component before. 
 
-![Image of Azure DevOps MuleSoft Connector](https://github.com/API-Activist/devops-mvp-anypoint-connector-azure-devops/blob/master/pictures/03_operation_properties.PNG)
 
 When using a transform message component, make use of the example payloads provided for **new** and **update** operations [provided here](https://docs.microsoft.com/en-us/rest/api/azure/devops/core/teams/create?view=azure-devops-rest-6.1).
-
 
 ### Reponse of operations
 By default it is a json sent back as string. Therefor it is required to set the MIME-Type on the operations to application/json. 
