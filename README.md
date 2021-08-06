@@ -63,7 +63,7 @@ The current version of this connector is 0.0.24. Once added, save the pom.xml fi
 ![Image of Azure DevOps MuleSoft Connector](https://github.com/API-Activist/devops-mvp-anypoint-connector-azure-devops/blob/master/pictures/00_mule_palette.PNG)
 
 ### Step 4 - Create Azure DevOps Configuration
-Before you get started and consume the provided operations, make sure to configure the GitLab Connection within Anypoint Studio. 
+Before you get started and consume the provided operations, make sure to configure the Azure DevOps Connection within Anypoint Studio. 
 - URL
 - Organization Id
 - PAT (Personal Access Token)
