@@ -115,11 +115,6 @@ By default it is a json sent back as string. Therefor it is required to set the 
 ## Flow Example with Azure DevOps operations
 ![Image of Azure DevOps interaction](https://github.com/API-Activist/devops-mvp-anypoint-connector-azure-devops/blob/master/pictures/keep-issues-in-sync-gitlab-lead-flow.PNG)
 
-	
-## Video Tutorial
-Link to the video tutorial: -to be provided soon-
-
-
 ## Caution
 This connector has been build on windows 10 using the Anypoint Studio 7.10 IDE. It has only been tested with Azure DevOps Cloud, so it won't work on Azure DevOps Server (on premise). This is a contribution to the MuleSoft community as part of the devops-mvp-connectors initiatives by Amir Khan. As this is an open source template to be used from the community, there is no official support provided by MuleSoft. Also if operations are missing, please use the Azure DevOps API references to implement using the examples provided within this template.
 	
